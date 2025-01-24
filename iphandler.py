@@ -164,7 +164,7 @@ class IPHandler:
 
 
 # Create a singleton instance of IPHandler
-iphandler = IPHandler(knowledge_base_file="bigdata.json")
+iphandler = IPHandler(knowledge_base_file="knowledge_base.json")
 iphandler._prepare_trie()
 
 

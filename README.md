@@ -91,6 +91,8 @@ Response:
 
 `docker exec -it <container_name> pytest test.py`
 
+(probably container_name=iphandler-iphandler-1)
+
 ## Performance
  
 Database with 21 dictionaries, repeated 100,000 times:
