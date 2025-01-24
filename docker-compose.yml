@@ -1,0 +1,9 @@
+services:
+  iphandler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./knowledge_base.json:/app/knowledge_base.json
